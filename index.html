@@ -1,14 +1,69 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="claw-assistant is a private, single-user personal assistant that runs on its owner's own computer.">
 <title>claw-assistant</title>
-<style>body{font:16px/1.6 system-ui,-apple-system,sans-serif;max-width:42rem;margin:3rem auto;padding:0 1.2rem;color:#222}h1{font-size:1.6rem}a{color:#0b57d0}</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>claw-assistant</h1>
-<p>claw-assistant is a private, single-user personal assistant that runs on its owner's own computer. It is not a public service and does not accept sign-ups.</p>
-<p>With the owner's permission it reads and organises the owner's own email, sends emails the owner has approved, and manages a calendar the app itself created.</p>
-<p>See the <a href="privacy.html">privacy policy</a>.</p>
+<div class="wrap">
+  <nav class="nav">
+    <a class="brand" href="./">
+      <span class="logo" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 4v5c0 4.4-3 8-7 9-4-1-7-4.6-7-9V7z"/><path d="M9 12l2 2 4-4"/></svg>
+      </span>
+      claw-assistant
+    </a>
+    <div class="nav-links">
+      <a href="./" aria-current="page">Home</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <span class="pill">Private · Single user · Not a public service</span>
+    <h1>A personal assistant that <span class="grad">stays at home</span>.</h1>
+    <p class="lead">claw-assistant is a private, single-user personal assistant that runs on its owner's own computer. It is not a public service and does not accept sign-ups.</p>
+  </header>
+
+  <section class="grid" aria-label="What it does">
+    <div class="card">
+      <span class="icon" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+      </span>
+      <h3>Organises email</h3>
+      <p>Reads and organises the owner's own email, with the owner's permission.</p>
+    </div>
+    <div class="card">
+      <span class="icon" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4z"/></svg>
+      </span>
+      <h3>Sends only on approval</h3>
+      <p>Sends an email only after the owner has reviewed and approved it.</p>
+    </div>
+    <div class="card">
+      <span class="icon" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+      </span>
+      <h3>Its own calendar</h3>
+      <p>Manages a separate calendar the app itself created, and nothing else.</p>
+    </div>
+  </section>
+
+  <div class="note">
+    <span class="icon" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+    </span>
+    <p>Data is handled on the owner's own computer and is never sold, shared or used for advertising. Read exactly what is accessed and why in the privacy policy.</p>
+  </div>
+
+  <a class="btn" href="privacy.html">Read the privacy policy
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </a>
+
+  <footer>claw-assistant · a private, single-user tool · <a href="privacy.html">Privacy policy</a></footer>
+</div>
 </body>
 </html>
